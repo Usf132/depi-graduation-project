@@ -1,0 +1,117 @@
+<div align="center">
+
+# 💊 Drug-Safety Intelligence Platform
+
+### Project Documentation
+
+*From raw FDA adverse-event reports to clean, standardized, analysis-ready drug-safety data.*
+
+![Phase](https://img.shields.io/badge/phase-planning%20%26%20requirements-orange?style=flat-square)
+![Data](https://img.shields.io/badge/data-FAERS%20%2B%20RxNorm-blue?style=flat-square)
+![Timeline](https://img.shields.io/badge/timeline-24%20Oct%20→%201%20Dec%202026-green?style=flat-square)
+![Docs](https://img.shields.io/badge/docs-.docx-informational?style=flat-square)
+
+[Contents](#-contents) · [Overview](#-overview) · [Pipeline](#-pipeline) · [Targets](#-key-targets) · [Timeline](#-timeline)
+
+</div>
+
+> [!IMPORTANT]
+> **Disclaimer:** This platform analyzes *reported* adverse events. It does not establish causation, provide medical advice, or replace professional pharmacovigilance.
+
+---
+
+## 📚 Contents
+
+| Document | Description |
+|:---------|:------------|
+| [**Project Documentation**](./Drug-Safety_Intelligence_Platform_Project_Documentation.docx) | Planning, literature review, requirements, and references in one document |
+
+### What's inside
+
+| # | Section | Covers |
+|:-:|:--------|:-------|
+| 1 | **Project Planning & Management** | Overview, problem statement, objectives, scope, timeline, milestones, team roles, risks, success metrics |
+| 2 | **Literature Review** | FAERS and RxNorm, similar systems (openFDA, OpenVigil, AEOLUS, VigiBase), comparison, research gap |
+| 3 | **Requirements Gathering** | Stakeholders, functional and non-functional requirements, data and technical requirements, constraints, acceptance criteria |
+
+---
+
+## 🎯 Overview
+
+The platform ingests adverse-event reports from the **FDA FAERS** system, standardizes drug names using **RxNorm**, removes duplicate reports, and presents reporting patterns through an **interactive dashboard**. An AI component is planned on top of this core.
+
+| | |
+|:--|:--|
+| **Goal** | An end-to-end data pipeline that turns raw FAERS reports into a clean, standardized dataset with a searchable dashboard |
+| **Stack (planned)** | Python · SQL · PostgreSQL · dbt · OHDSI Usagi · Parquet · Docker |
+| **AI (planned)** | One team member will explore AI features (e.g. drug-name matching, data exploration). Scope to be defined. |
+| **Out of scope** | Diagnosis · medication recommendations · causal inference · clinical risk prediction · drug–drug interaction checking |
+
+---
+
+## 🔄 Pipeline
+
+```mermaid
+flowchart LR
+    A["📥 Ingest<br/>FAERS + RxNorm"] --> B["🧹 Clean &<br/>validate"]
+    B --> C["🔁 Deduplicate"]
+    C --> D["💊 Map drugs<br/>to RxNorm"]
+    D --> E["🗄️ Analytical<br/>model"]
+    E --> F["📊 Signals<br/>PRR / ROR"]
+    F --> G["🖥️ Dashboard"]
+```
+
+---
+
+## 📈 Key Targets
+
+| Metric | Target |
+|:-------|:------:|
+| RxNorm mapping rate | **≥ 90%** |
+| Duplicate removal | **≥ 95%** |
+| Search response time | **< 3 s** |
+| Signal detection accuracy | **≥ 80%** |
+| Test pass rate | **≥ 90%** |
+
+---
+
+<a id="-timeline"></a>
+
+## 🗓️ Timeline
+
+**24 October – 1 December 2026**
+
+```mermaid
+gantt
+    title Project Timeline (2026)
+    dateFormat YYYY-MM-DD
+    axisFormat %d %b
+    section Foundation
+    Planning            :a1, 2026-10-24, 4d
+    Literature review   :a2, 2026-10-26, 8d
+    Requirements        :a3, 2026-10-30, 7d
+    section Build
+    Data collection     :b1, 2026-10-31, 13d
+    System design       :b2, 2026-11-03, 8d
+    Development         :b3, 2026-11-10, 14d
+    section Delivery
+    Testing             :c1, 2026-11-22, 6d
+    Documentation       :c2, 2026-11-24, 8d
+```
+
+| Milestone | Date | Deliverable |
+|:----------|:----:|:------------|
+| **M1** Project kickoff | 27 Oct | Approved scope and plan |
+| **M2** Literature review | 2 Nov | Review section and references |
+| **M3** Requirements approved | 5 Nov | Requirements specification |
+| **M4** Design approved | 10 Nov | Architecture and UI mockups |
+| **M5** Clean dataset ready | 12 Nov | FAERS cleaned and mapped to RxNorm |
+| **M6** First prototype | 17 Nov | Working prototype |
+| **M7** Testing complete | 27 Nov | Test report and fixes |
+| **M8** Final documentation | 1 Dec | Final PDF on GitHub |
+
+---
+
+<div align="center">
+<sub>Public, anonymized data only · Web sources accessed October 2026 · Items marked <i>planned</i> describe intended design, not completed work</sub>
+</div>
