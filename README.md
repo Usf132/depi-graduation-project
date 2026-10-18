@@ -1,6 +1,8 @@
-# depi-graduation-project
+<div align="center">
 
+# 💊 Drug-Safety Intelligence Platform
 
+</div>
 
 ## Contributors
 
