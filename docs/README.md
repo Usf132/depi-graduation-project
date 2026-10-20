@@ -26,7 +26,7 @@
 
 | Document | Description |
 |:---------|:------------|
-| [**Project Documentation (PDF)**](./Drug-Safety_Intelligence_Platform_Project_Documentation_Final.pdf) | Planning, literature review, requirements, and references in one document |
+| [**Project Documentation (PDF)**](final_documentation.pdf.pdf) | Planning, literature review, requirements, and references in one document |
 
 ### What's inside
 
