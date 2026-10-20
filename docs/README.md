@@ -116,13 +116,11 @@ gantt
 
 ## Team
 
-**Team Leader:** Youssef Asaad Saad
-
 | Member | GitHub | Role | Documentation Sections |
 |:-------|:-------|:-----|:-----------------------|
-| **Youssef Saad** | [@Usf132](https://github.com/Usf132) | Team Leader | 2.1 – 2.3 (Literature review: introduction, data sources, similar systems) |
 | **Randa Gomaa** | [@ran-da25](https://github.com/ran-da25) | Team Member | 1.1 – 1.4 (Overview, problem statement, objectives, scope) |
 | **Mariam Abdelaziz** | [@MariamAbdelaziz21](https://github.com/MariamAbdelaziz21) | Team Member | 1.5 – 1.9 (Timeline, milestones, team roles, risks, success metrics) |
+| **Youssef Saad** | [@Usf132](https://github.com/Usf132) | Team Leader | 2.1 – 2.3 (Literature review: introduction, data sources, similar systems) |
 | **Olivia Hanna** | [@ohanna725](https://github.com/ohanna725) | Team Member | 2.4, 2.5, 3.1 (Comparison, research gap, stakeholders) |
 | **Abanoub Ayman** | [@Abanob-Ayman](https://github.com/Abanob-Ayman) | Team Member | 3.2 – 3.7 (Functional, non-functional, data, technical requirements, constraints, acceptance criteria) |
 
