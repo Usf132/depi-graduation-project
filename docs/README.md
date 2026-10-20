@@ -6,12 +6,14 @@
 
 *From raw FDA adverse-event reports to clean, standardized, analysis-ready drug-safety data.*
 
+**Digital Egypt Pioneers Initiative (DEPI) · Graduation Project**
+
 ![Phase](https://img.shields.io/badge/phase-planning%20%26%20requirements-orange?style=flat-square)
 ![Data](https://img.shields.io/badge/data-FAERS%20%2B%20RxNorm-blue?style=flat-square)
 ![Timeline](https://img.shields.io/badge/timeline-24%20Oct%20→%201%20Dec%202026-green?style=flat-square)
-![Docs](https://img.shields.io/badge/docs-.docx-informational?style=flat-square)
+![Docs](https://img.shields.io/badge/docs-PDF-informational?style=flat-square)
 
-[Contents](#-contents) · [Overview](#-overview) · [Pipeline](#-pipeline) · [Targets](#-key-targets) · [Timeline](#-timeline)
+[Contents](#-contents) · [Overview](#-overview) · [Pipeline](#-pipeline) · [Targets](#-key-targets) · [Timeline](#timeline) · [Team](#team)
 
 </div>
 
@@ -24,7 +26,7 @@
 
 | Document | Description |
 |:---------|:------------|
-| [**Project Documentation**](./Drug-Safety_Intelligence_Platform_Project_Documentation.docx) | Planning, literature review, requirements, and references in one document |
+| [**Project Documentation (PDF)**](./Drug-Safety_Intelligence_Platform_Project_Documentation_Final.pdf) | Planning, literature review, requirements, and references in one document |
 
 ### What's inside
 
@@ -75,7 +77,7 @@ flowchart LR
 
 ---
 
-<a id="-timeline"></a>
+<a id="timeline"></a>
 
 ## 🗓️ Timeline
 
@@ -106,9 +108,25 @@ gantt
 | **M3** Requirements approved | 5 Nov | Requirements specification |
 | **M4** Design approved | 10 Nov | Architecture and UI mockups |
 | **M5** Clean dataset ready | 12 Nov | FAERS cleaned and mapped to RxNorm |
-| **M6** First prototype | 17 Nov | Working prototype |
+| **M6** First prototype | 17 Nov | Working prototype (search, signals) |
 | **M7** Testing complete | 27 Nov | Test report and fixes |
-| **M8** Final documentation | 1 Dec | Final PDF on GitHub |
+| **M8** Final documentation | 1 Dec | Final PDF uploaded to GitHub |
+
+---
+
+## Team
+
+**Team Leader:** Youssef Asaad Saad
+
+| Member | GitHub | Role | Documentation Sections |
+|:-------|:-------|:-----|:-----------------------|
+| **Youssef Asaad Saad** | [@Usf132](https://github.com/Usf132) | Team Leader · AI Engineer | 2.1 – 2.3 (Literature review: introduction, data sources, similar systems) |
+| **Randa Gomaa** | [@ran-da25](https://github.com/ran-da25) | Team Member | 1.1 – 1.4 (Overview, problem statement, objectives, scope) |
+| **Mariam Abdelaziz** | [@MariamAbdelaziz21](https://github.com/MariamAbdelaziz21) | Team Member | 1.5 – 1.9 (Timeline, milestones, team roles, risks, success metrics) |
+| **Olivia Hanna** | [@ohanna725](https://github.com/ohanna725) | Team Member | 2.4, 2.5, 3.1 (Comparison, research gap, stakeholders) |
+| **Abanoub Ayman** | [@Abanob-Ayman](https://github.com/Abanob-Ayman) | Team Member | 3.2 – 3.7 (Functional, non-functional, data, technical requirements, constraints, acceptance criteria) |
+
+All members also contribute to data engineering and QA. Detailed technical assignments (data engineering, backend, frontend, testing) are still to be agreed and will be added here.
 
 ---
 
