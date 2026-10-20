@@ -116,15 +116,18 @@ gantt
 
 ## Team
 
-| Member | GitHub | Role | Documentation Sections |
-|:-------|:-------|:-----|:-----------------------|
-| **Randa Gomaa** | [@ran-da25](https://github.com/ran-da25) | Team Member | 1.1 – 1.4 (Overview, problem statement, objectives, scope) |
-| **Mariam Abdelaziz** | [@MariamAbdelaziz21](https://github.com/MariamAbdelaziz21) | Team Member | 1.5 – 1.9 (Timeline, milestones, team roles, risks, success metrics) |
-| **Youssef Saad** | [@Usf132](https://github.com/Usf132) | Team Leader | 2.1 – 2.3 (Literature review: introduction, data sources, similar systems) |
-| **Olivia Hanna** | [@ohanna725](https://github.com/ohanna725) | Team Member | 2.4, 2.5, 3.1 (Comparison, research gap, stakeholders) |
-| **Abanoub Ayman** | [@Abanob-Ayman](https://github.com/Abanob-Ayman) | Team Member | 3.2 – 3.7 (Functional, non-functional, data, technical requirements, constraints, acceptance criteria) |
+| | Member | Role | Documentation Ownership |
+|:-:|:-------|:-----|:------------------------|
+| <img src="https://github.com/Usf132.png" width="48" alt="Youssef Saad"> | [**Youssef Saad**](https://github.com/Usf132) | **Team Leader** | **§2.1–2.3** Literature review: introduction, data sources, similar systems |
+| <img src="https://github.com/ran-da25.png" width="48" alt="Randa Gomaa"> | [**Randa Gomaa**](https://github.com/ran-da25) | Team Member | **§1.1–1.4** Overview, problem statement, objectives, scope |
+| <img src="https://github.com/MariamAbdelaziz21.png" width="48" alt="Mariam Abdelaziz"> | [**Mariam Abdelaziz**](https://github.com/MariamAbdelaziz21) | Team Member | **§1.5–1.9** Timeline, milestones, team roles, risks, success metrics |
+| <img src="https://github.com/ohanna725.png" width="48" alt="Olivia Hanna"> | [**Olivia Hanna**](https://github.com/ohanna725) | Team Member | **§2.4, 2.5, 3.1** Comparison, research gap, stakeholders |
+| <img src="https://github.com/Abanob-Ayman.png" width="48" alt="Abanoub Ayman"> | [**Abanoub Ayman**](https://github.com/Abanob-Ayman) | Team Member | **§3.2–3.7** Functional, non-functional, data and technical requirements, constraints, acceptance criteria |
 
-All members also contribute to data engineering and QA. Detailed technical assignments (data engineering, backend, frontend, testing) are still to be agreed and will be added here.
+### Shared Responsibilities
+
+All members contribute to **data engineering**, **quality assurance**, and **documentation**. Detailed technical assignments (data engineering, backend, frontend, testing) are still to be agreed and will be added here.
+
 
 ---
 
