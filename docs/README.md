@@ -26,7 +26,7 @@
 
 | Document | Description |
 |:---------|:------------|
-| [**Project Documentation (PDF)**](final_documentation.pdf.pdf) | Planning, literature review, requirements, and references in one document |
+| [**Project Documentation (PDF)**](final_documentation.pdf) | Planning, literature review, requirements, and references in one document |
 
 ### What's inside
 
