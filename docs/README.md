@@ -120,7 +120,7 @@ gantt
 
 | Member | GitHub | Role | Documentation Sections |
 |:-------|:-------|:-----|:-----------------------|
-| **Youssef Saad** | [@Usf132](https://github.com/Usf132) | Team Leader · AI Engineer | 2.1 – 2.3 (Literature review: introduction, data sources, similar systems) |
+| **Youssef Saad** | [@Usf132](https://github.com/Usf132) | Team Leader | 2.1 – 2.3 (Literature review: introduction, data sources, similar systems) |
 | **Randa Gomaa** | [@ran-da25](https://github.com/ran-da25) | Team Member | 1.1 – 1.4 (Overview, problem statement, objectives, scope) |
 | **Mariam Abdelaziz** | [@MariamAbdelaziz21](https://github.com/MariamAbdelaziz21) | Team Member | 1.5 – 1.9 (Timeline, milestones, team roles, risks, success metrics) |
 | **Olivia Hanna** | [@ohanna725](https://github.com/ohanna725) | Team Member | 2.4, 2.5, 3.1 (Comparison, research gap, stakeholders) |
